@@ -10,10 +10,12 @@ The dataset is extracted from kaggle competition by Borkowski AA 2019(15).
 
 
 CLASSIFICATION RESULTS
+
 This section describes the results of classification and segmentation techniques. This will help you understand your model better and understand how to further improve your model's performance. The basic idea is to understand why a machine learning model predicts that an instance (image) belongs to a certain class.
 
 
 Segmentation
+
 Segmentation is the separation of one or more regions or objects in an image supported by separation or similarity criteria. A region in an image is defined by its boundary (edge) or interior, and the representation of the two unit regions is the same. If it recognizes the inside, it continuously outlines the border. And vice versa. Additional pixels are added to the selected chunk, or additional chunk points are reduced to smaller segments and merged with other smaller chunk points. Therefore, there is an additional basic technique in Unit 2 that supports this method. Mainly region-based and edge-based and rendering. As a result, image segmentation approaches generally fall into two categories. Edge and region primary based strategy.
 
 
